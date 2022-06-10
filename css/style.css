@@ -1,0 +1,589 @@
+/* .navbar-light .navbar-nav .nav-link {
+    color: rgb(8 4 4);
+    font-size: 16px;
+    line-height: 24px;
+} */
+/* font-family: 'Montserrat', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #33417c;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e55525;
+
+}
+
+
+
+.banner {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.height {
+    min-height: 90vh;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 57px;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.icon {
+
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 20px;
+    animation: drpdown 1s linear infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes drpdown {
+    0% {
+        bottom: 50px;
+
+    }
+
+    100% {
+        bottom: 35px
+    }
+}
+
+.who_we_are {}
+
+.who_we_are span {
+    background: #e76128;
+    display: block;
+    width: 0px;
+    height: 4px;
+    margin: 20px 0;
+    transition: .4s all ease-in-out;
+
+}
+
+.who_we_are:hover span {
+    transition: .4s all ease-in-out;
+    width: 80px;
+
+}
+
+.who_we_are h1 {
+
+    color: #33417c;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.who_we_are p {
+
+    font-size: 16px;
+    color: #bab5b2;
+
+    /* .navbar-light .navbar-nav .nav-link {
+        color: rgb(8 4 4);
+        font-size: 16px;
+        line-height: 24px;
+    } */
+    /* font-family: 'Montserrat', sans-serif; */
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #33417c;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #e55525;
+
+    }
+
+
+
+    .banner {
+        background-image: url(../images/banner.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+    }
+
+    .height {
+        min-height: 90vh;
+    }
+
+    .banner h1 {
+        color: #fff;
+        font-size: 57px;
+
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .icon {
+
+        position: absolute;
+        left: 50%;
+        bottom: 50px;
+        transform: translateX(-50%);
+        color: #fff;
+        font-size: 20px;
+        animation: drpdown 1s linear infinite;
+        animation-direction: alternate;
+
+    }
+
+    @keyframes drpdown {
+        0% {
+            bottom: 50px;
+
+        }
+
+        100% {
+            bottom: 35px
+        }
+    }
+
+    .who_we_are {}
+
+    .who_we_are span {
+        background: #e76128;
+        display: block;
+        width: 0px;
+        height: 4px;
+        margin: 20px 0;
+        transition: .4s all ease-in-out;
+
+    }
+
+    .who_we_are:hover span {
+        transition: .4s all ease-in-out;
+        width: 80px;
+
+    }
+
+    .who_we_are h1 {
+
+        color: #33417c;
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    .who_we_are p {
+
+        font-size: 16px;
+        color: #bab5b2;
+    }
+
+    .wht_we_do {
+        background-color: #fbfbfb;
+    }
+
+
+
+
+
+}
+
+.wht_we_do {
+    background-color: #fbfbfb;
+    background-image: url(../images/aaa.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 65%;
+}
+
+.heading {}
+
+.heading span {
+    background: #e76128;
+    display: block;
+    width: 0px;
+    height: 4px;
+    margin: auto;
+    transition: .4s all ease-in-out
+}
+
+.heading:hover span {
+    transition: .4s all ease-in-out;
+    width: 100px;
+
+}
+
+
+.heading h1 {
+    color: #33417c;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+
+.what_we_do_item {
+    position: relative;
+}
+
+.what_we_do_item img {
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    color: #fff;
+    transition: .4s all ease-in-out;
+    opacity: 0;
+}
+
+.content h2 {
+
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.arrow {
+    position: absolute;
+    left: 40%;
+    bottom: 40px;
+    color: #ffff;
+    font-size: 25px;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.what_we_do_item:hover .content {
+    top: 45%;
+    opacity: 1;
+
+
+}
+
+.what_we_do_item:hover .arrow {
+    left: 50%;
+    opacity: 1;
+
+
+}
+
+.what_we_do_item::before {
+    content: '';
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    transition: .4s all ease-in-out;
+    background-color:
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,391a72+100&0+0,1+100 */
+        background: -moz-linear-gradient(top, rgba(125, 185, 232, 0) 0%, rgba(57, 26, 114, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(125, 185, 232, 0) 0%, rgba(57, 26, 114, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(125, 185, 232, 0) 0%, rgba(57, 26, 114, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007db9e8', endColorstr='#391a72', GradientType=0);
+    /* IE6-9 */
+
+
+
+}
+
+.what_we_do_item:hover::before {
+    height: 100%;
+}
+
+.atrney {
+    background-image: url(../images/q.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    padding: 200px 0;
+
+}
+
+.atrney_content {}
+
+.atrney_content span {
+
+    background: #e76128;
+    display: block;
+    width: 50px;
+    height: 4px;
+    margin: 20px 0;
+    transition: .4s all ease-in-out;
+    margin-top: 138px;
+}
+
+.atrney_content h1 {
+
+    margin top: 100px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.atrney_content p {
+
+
+    color: #a3a0cc;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.atrney_content a {
+
+    text-decoration: none;
+    color: #e76128;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* margin-top: 56px; */
+}
+
+.atrny_picture {
+    position: relative;
+
+}
+
+.atrny_picture img {
+    width: 100%;
+
+}
+
+.atrny_picture h1 {
+
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #fff;
+    opacity: 0;
+    transition: .6s all ease-in-out;
+    font-size: 20px;
+}
+
+.atrny_picture h1:hover {
+
+    opacity: 1;
+    bottom: 40px;
+
+
+}
+
+
+
+.atrny_picture::before {
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 0%;
+    position: absolute;
+    width: 100%;
+    transition: .4s all ease-in-out;
+    opacity: 0;
+    background-color:
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,391a72+100&0+0,1+100 */
+        background: -moz-linear-gradient(top, rgba(125, 185, 232, 0) 0%, rgba(57, 26, 114, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(125, 185, 232, 0) 0%, rgba(57, 26, 114, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(125, 185, 232, 0) 0%, rgba(57, 26, 114, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007db9e8', endColorstr='#391a72', GradientType=0);
+    /* IE6-9 */
+
+}
+
+.atrny_picture:hover:before {
+    opacity: 1;
+    height: 100%;
+
+
+}
+
+.language_content {}
+
+.language_content span {
+    background: #e76128;
+    display: block;
+    width: 50px;
+    height: 4px;
+    margin: auto;
+
+}
+
+.language_content h1 {
+    color: #33417c;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+
+.lg_content {}
+
+.lg_content h1 {
+    color: #36226f;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.lg_content p {
+
+    color: #bab5b3;
+    font-size: 16px;
+}
+
+.lg_content a {
+    text-decoration: none;
+    color: #e76128;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.contuct_us {
+    background-color: #36226f;
+
+}
+
+.heading_two {}
+
+.heading_two span {
+    background: #e76128;
+    display: block;
+    width: 50px;
+    height: 4px;
+    margin: auto;
+    margin-bottom: 20px;
+
+
+}
+
+.heading_two h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.form {
+    text-align: center;
+}
+
+.form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #bab5b3;
+   
+    color: #fff;
+    background: none;
+    border-radius: 0px;
+}
+
+.form textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #bab5b3;
+    border-radius: 0px;
+
+
+}
+
+
+
+
+.form input[type="submit"] {
+    background-color: #e55525;
+    color: #fff;
+    padding: 9px 61px;
+
+}
+.form input:focus,
+.form textarea:focus {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+
+
+.footer {
+    background-color: #16102b;
+
+}
+
+.cprt {}
+
+.cprt p {
+    color: #453c69;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.scl_icon {}
+
+.scl_icon ul {
+    list-style: none;
+    text-transform: none;
+    color: lemonchiffon;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.scl_icon ul li {
+    padding-top: 20px;
+}
+
+.scl_icon ul li a {
+
+    font-size: 20px;
+    color: #c1bddb;
+}
+
+.scl_icon ul li :hover {
+    transform: rotate(360deg);
+    transition: .4s all ease-in-out;
+    color: #e55525;
+}
